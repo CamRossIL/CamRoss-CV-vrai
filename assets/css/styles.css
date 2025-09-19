@@ -150,3 +150,47 @@ ul{
 ul li::marker{
     color: #17abb3;
 }
+.experience{/*cote droit des formations et experiences*/
+    width: 70%;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience >p{
+    text-align: justify;
+    text-indent: 100px;
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.texte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; /*ce qui va permettre le survol en bloc*/
+}
+.texte2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texte2 +p{
+    color: #17abb3;
+}
+.texte1:hover{
+    background-color: #e3e3e3;
+    border-left: 5px solid #17abb3;
+}
+
+.textedescription{
+    font-size: 1rem;
+    font-style: italic
+}
+
+.bold{
+    font-weight: 700;
+}
