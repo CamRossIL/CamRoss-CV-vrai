@@ -93,3 +93,60 @@ header a{
     gap: 0.5rem;
     min-width: 10rem; /*pour que les icones soient alignées?*/
 }
+main{/*diviser le contenu en 2 parties*/
+    display: flex;
+    flex-direction: row;
+}
+h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #17abb3;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 0.5rem;
+}
+.talents{/*cote gauche des talents en colonnes*/
+    width: 30%;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+.competences{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.competences1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* espace entre nom et description */
+    align-items: center;            /* aligne verticalement si textes de tailles différentes */
+}
+
+.competences1 i{
+    color: #17abb3;
+}
+
+.langues{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.langues1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* espace entre nom et description */
+    align-items: center;           
+}
+ul{
+    list-style: square;
+    margin-left: 1rem;
+}
+
+ul li::marker{
+    color: #17abb3;
+}
