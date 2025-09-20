@@ -66,7 +66,9 @@ header a{
     margin: 0.5rem;
     width: 10rem;/*pour photo arrondie width et height les memes*/
     height: 10rem;
+    border: 2px solid #ffffff;
     border-radius: 50%; /*photo arrondie*/
+    background-color: #ffffff;
     object-fit: cover;
 }
 
